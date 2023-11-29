@@ -1,0 +1,12 @@
+# Install git on rhel server
+sudo su 
+yum update -y 
+# Install git
+yum install git -y 
+# Check version
+git --version
+# set name and email
+git config --global user.name "aaquib"  
+git config --global user.email "aaquib2309@gmail.com"
+# Check list of users 
+git config --list
