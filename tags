@@ -1,0 +1,6 @@
+# Tags 
+> tag operation allows to give meaningfull name to a specific version in the repository
+> git tag -a (tag-name) -m (message) (commit-id)
+> git tag :- list all tags 
+> git show (tag-name) :- to see particulat commit content by using tag
+> git tag -d (tag-name) :- delete a tag
