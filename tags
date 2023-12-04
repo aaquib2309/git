@@ -4,3 +4,14 @@
 > git tag :- list all tags 
 > git show (tag-name) :- to see particulat commit content by using tag
 > git tag -d (tag-name) :- delete a tag
+
+# git tag command
+> git log --oneline
+> git tag -a important -m "important commit" 443c7b7
+> git tag 
+  important 
+> git show important :- shows all the details 
+> git tag -d important
+> git tag
+> git log --oneline : no tags
+
