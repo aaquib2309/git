@@ -40,3 +40,8 @@ stash@{1}: WIP on master: 8beeea5 demo of stash
 > git stash list :- it will still available in stash 
 > git stash clear :- clear
 > git stash list :- no file
+
+
+> git stash list :- 
+> git stash pop :- move last stashed file 
+> git stash show stash@{2} :- show specific stashed 
