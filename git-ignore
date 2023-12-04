@@ -1,0 +1,21 @@
+# To ignore some file while commiting
+> vi .gitignore
+*.css
+*.java
+:wq!
+
+> ls -a
+> git add .gitignore
+> git commit -m "ignore file format"
+> git status
+> touch file1.txt file2.java file3.css file4.txt
+> git status :- file1.txt & file4.txt are added.
+> git add .
+> git status
+> git commit -m "ignore java and css files"
+> git log
+> git show db54f7742ffb
+> git log -1 :- shows last added
+> git log -2 :- shows last 2 added
+> git log --oneline :- shows all in one line
+> git log --grep "ignore" 
