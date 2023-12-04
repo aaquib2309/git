@@ -1,0 +1,15 @@
+# git revert 
+> the revert command helps you to undo the existing commit
+> it does not delete any data in the process, instead rather git creates new commit with the included files reverted to their previous  
+  state. so you version control history moves forward while the state of your file moves backward.
+> go to the git workspace 
+> cat > newfile
+  final code for app
+> git add .
+> git commit -m "code commited"
+> cat >> file1
+  adding file to get revert
+  and doing the lab
+> git add .
+> git log --oneline
+> git revert (commit-id)
