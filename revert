@@ -13,3 +13,21 @@
 > git add .
 > git log --oneline
 > git revert (commit-id)
+
+ec2-singapore
+> git status
+> git log
+> cat > revertfile
+revert test code
+> git add .
+> git commit -m "revert test "
+
+> cat >> revertfile 
+bad commit
+> git add .
+> git commit -m "bad file commites"
+> git log
+> git revert 120ed04ff34d7
+Revert "wrong commit" (ignore this commit)
+> cat revertfile :- old code is showing new code disappear
+> git log --oneline :- 95495d4 (HEAD -> master) Revert "wrong commit" (ignore this commit)
