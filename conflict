@@ -1,0 +1,24 @@
+# git conflict 
+> when same name file having different content in different branches, if you do merge conflict occurs (resolve conflict and add commit)
+> conflict occurs when you merge branches.
+
+> git checkout master
+> cat > conflict1
+> cat conflict1
+> hello world
+> ls 
+> git add .
+> git commit -m "first commit before conflict"
+> git log --oneline 
+> git checkout branch1
+> cat > conflict1
+  hi aaquib 
+> git add .
+> git commit -m "commit from master"
+> git checkout master
+> git merge branch1 :- CONFLICT (add/add): Merge conflict in conflict1
+> vi conflict1 :- edit data
+> git status :- unmerged file show
+> git add .
+> git commit -m "conflict resolved"
+> git log --oneline
