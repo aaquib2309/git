@@ -1,0 +1,27 @@
+> cat > story1.txt :- assume you have added and status is clean
+  This is line 1 
+> cat >> story1.txt :- but it was accidental you don't want to proceed with it
+  This is line 2
+> git init --bare story-blog :- create a bare repository  
+> git restore story1.txt :- the working area is clean and you have only 1st commit code (This is line 1) 
+> git restore --staged story1.txt :- if you have story2.txt file in staging and you want to commit first so, you need to take back story1.txt first
+> git rm --cached story1.txt :- if stagged used [git add .], Now want to take it to working area use --cached
+> git rm -f story1.txt :- it will remove from eaverywhere while using cached it will keep it in working area.
+
+> git log --name-only :- You can list the changed files as well using the --name-only
+> git log --name-only :- frogs-and-ox.txt {print the file name also with the log}
+> git help log 
+> git log -n 1 :- latest log
+> git log --graph --decorate :- To see previous commit history along with the branch they were committed on.
+> git log --graph --decorate --oneline :-
+> git log --patch :-
+> git checkout feature/signout; git log --graph --decorate :- adding 2 commands.
+> git checkout -b story/fox-and-grapes :- created a branch and checkout at the same time.
+> git push origin master story/fox-and-grapes :- It will create a branch on github and push into that branch but not master.
+> git fetch origin master
+> git branch -a :- To view all the branches- both local and remote.
+> git merge origin/master :- 
+> git remote -v :- checking existing remote
+> git commit -am "Resolved merge conflicts and merged story index" :- 
+> git remote set-url origin [url] :- changing repository url
+> git log origin/master --name-only :- check log of remote origin/master name only
