@@ -1,0 +1,32 @@
+> git branch :- *master 
+> git branch branch1 
+  *master
+  branch1
+> git checkout branch1
+> git branch 
+  master
+  *branch1
+> git branch -d branch1 :- delete branch 
+
+> git checkout branch1
+> cat > branch1file
+> cat branch1file
+> git add .
+> git commit -m "branch1 first commit in singapore"
+> git log --oneline
+> git checkout master :- after commit branch1file will not show in master it will only show in branch1.
+> git branch
+> git log --oneline :- branch1 file will not show in master. it only belongs to branch1 as of now.
+
+> git checkout branch1
+> git branch 
+> cat > branch2file :- hi this is second test file from branch1
+> cat branch2file
+> git checkout master :- file will show in both branch untill you commit. because its in workspace now.
+> git checkout branch1
+> git branch
+> git add .
+> git commit -m "second commit from branch1"
+> git log --oneline
+> git checkout master
+> git log --oneline :- now branch2file file will not show in master branch
