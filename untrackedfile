@@ -2,7 +2,7 @@
 > git clean -n (dry run)
 > git clean -f (forcefully)
 
-remove untacked files command
+#remove untacked files command
 > touch file1 file2 file3 file4 file5
 > git status :- untacked files
 > git clean -n :- Would remove file1
