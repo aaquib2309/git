@@ -1,0 +1,3 @@
+# github clone
+> git clone (url of github repo)
+> it creates a local repo autometacally in linux machine with the same name as in github account 
