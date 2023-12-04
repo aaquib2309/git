@@ -1,0 +1,3 @@
+# remove untacked files
+> git clean -n (dry run)
+> git clean -f (forcefully)
