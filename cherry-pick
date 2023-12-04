@@ -1,0 +1,5 @@
+# git cherry-pick
+> It's called cherry-pick because the task is like cherry picking. You look through a bunch of commits (in a real tree, leaves and branches) and
+  carefully select some of them. It's a delicate job the same way cherry picking in real-world is. git-cherry is related to git-cherry-pick .  
+> git log master --oneline :- you can check log of master from a different branch by calling master with the log.
+> git cherry-pick 4b9a824 :- copying specific commit to your file using cherry-pick
