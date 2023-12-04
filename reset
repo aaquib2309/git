@@ -1,0 +1,15 @@
+# git reset
+> git reset is a powerful command that is used to undo local changes to the state of a git repo.
+> git reset (file name)
+> git reset .
+> git reset --hard :- to reset the changes from both staging area and working dirctory at a time use 
+
+> cat > resetdemo
+> git add .
+> git status
+> git reset .
+> git status
+
+> git add . :- again add 
+> git reset --hard :- 
+> git status :- clean from working and staging area
