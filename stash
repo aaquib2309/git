@@ -1,0 +1,42 @@
+# git stashing
+> suppose you are implimmenting a new feature for your product. your code is in progress and suddenly a customer escalation comes, 
+  because of this you have to keep aside your new feature for few hors. you can not commit your partial code and also can't throw away your changes so you need some temprory storage.where you can store your partial changes and later on commit.
+> to stash an item (only applies to modified files not on new file)  
+
+> git stash :- to stash an item
+> git stash list :- to see stashed item list
+> git stash apply stash@{0} :- to apply stashed items (0,1,2) --> 0 is latest
+> git stash clear :- to clear the stash items
+
+> touch stashdemo
+> git add .
+> git commit -m "demo of stash"
+> git branch :- master
+> vi stashdemo 
+  first code
+  :wq!
+> git stash :- Saved working directory and index state WIP on master: 8beeea5 demo of stash
+> cat stashdemo :- now this file is empty
+> git stash list :- stash@{0}: WIP on master: 8beeea5 demo of stash
+> vi stashdemo  
+  second code
+  :wq!
+> git stash 
+> git stash list
+stash@{0}: WIP on master: 8beeea5 demo of stash
+stash@{1}: WIP on master: 8beeea5 demo of stash
+
+> git stash apply stash@{1} :- old code is visible in workspace
+> cat stashdemo
+> git add .
+> git commit -m "first code done"
+> git stash apply stash@{0} 
+  CONFLICT (content): Merge conflict in stashdemo
+> vi stashdemo :- remove old code which is in stash@{1}
+> git add .
+> git commit -m "second code done" 
+> git status
+> git log --oneline
+> git stash list :- it will still available in stash 
+> git stash clear :- clear
+> git stash list :- no file
