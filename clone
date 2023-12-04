@@ -1,3 +1,10 @@
 # github clone
 > git clone (url of github repo)
 > it creates a local repo autometacally in linux machine with the same name as in github account 
+
+# cloning command
+> git clone https://github.com/aaquib2309/central_repo.git
+> ls
+> central_repo :- copied from github to machine  
+> cd central_repo/
+> ls :- showing exact same file as github account
