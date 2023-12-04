@@ -1,0 +1,16 @@
+# Merge
+> You can't merge branches of different repository.
+> we use pulling mechanism to merge branches
+> git merge (branch name) :- to merge
+> git log :- verify merge
+> git push origin master :- to push central repo like github/gitlab
+
+> git branch
+> git log --oneline
+> git checkout master
+> git merge branch1 :- merged branch to master
+> ls :- branch1file, branch2file showing in master
+> git log --oneline
+> git push origin master
+  Username for 'https://github.com': 
+  Password for 'https://saquib2309@gmail.com@github.com': 
