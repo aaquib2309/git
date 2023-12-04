@@ -1,0 +1,8 @@
+# git rebase 
+> git rebase takes your entire feature branch and moves it to the tip of the main branch. It creates branch new commits for each commit 
+  in the original feature branch.
+> git rebase -i HEAD~3 :- Squash all the commits into a single commit.Run the command git rebase -i HEAD~3 to squash the last 3 commits 
+  into 1.Change last 2 pick to squash and save.
+
+> git rebase master :- this command will run on feature branch
+> git push --set-upstream origin max_games :- max_games doesn't present in gitaui repository thats why --set-upstream origin max_games being used
