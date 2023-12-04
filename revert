@@ -31,3 +31,7 @@ bad commit
 Revert "wrong commit" (ignore this commit)
 > cat revertfile :- old code is showing new code disappear
 > git log --oneline :- 95495d4 (HEAD -> master) Revert "wrong commit" (ignore this commit)
+
+# revert
+> git reset --hard HEAD~3
+> git reset soft HEAD~1
