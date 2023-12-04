@@ -1,0 +1,14 @@
+> git remote add origin https://github.com/aaquib2309/central_repo.git 
+> git log
+> git status 
+> git pull origin master
+> git log 
+> git show 099d49b9e
+> ls
+> cat >> mumbai1 :- this is singapore user pulled from central repo
+> cat mumbai1
+> git status
+> git add .
+> git status
+> git commit -m "My first commit from singapore"
+> git push origin master
