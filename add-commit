@@ -1,0 +1,14 @@
+> mkdir mumbai-git
+> cd mumbai-git/
+> /home/mumbai-git :- pwd
+> git init
+> ls -a 
+> cat >  mumbai1
+> cat mumbai1
+> git status
+> git add .
+> git status
+> git commit -m "My first commit from mumbai"
+> git status
+> git log
+> git show 8cf2be131df8 :- commit id
