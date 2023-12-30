@@ -12,5 +12,5 @@ Welcome to my Git repository! This space is dedicated to hosting a variety of pr
 Clone this repository to get started:
 
 ```bash
-git clone https://github.com/your-username/git-repository.git
-cd git-repository
+git clone https://github.com/aaquib2309/git.git
+cd git
